@@ -1,24 +1,10 @@
-html {
-    background-color: #080812;
-}
-
-main {
-  padding-top: 1.5rem;
-}
-
-small {
-  display: block;
-  text-align: left;
-  padding-left: 24px;
-}
-
 .App {
   text-align: center;
-  background-color: #080812;
 }
 
-.btn {
-  margin: 5px;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
 .App-header {
@@ -36,7 +22,11 @@ small {
   color: #61dafb;
 }
 
-p {
-  text-align: justify;
-  padding: 1rem;
+.box {
+  border: solid 1px #282c34;
+  color: #282c34;
+  background-color: antiquewhite;
+  margin: 5px;
+  padding: 15px;
+  width: 500px;
 }
