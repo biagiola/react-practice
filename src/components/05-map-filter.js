@@ -15,7 +15,7 @@ class State extends Component {
                 <span>this.state.lista.map = </span>
                 {
                     this.state.lista.map( e => {
-                        return <span>{ e }</span>
+                        return <span key={Math.random()}>{ e }</span>
                     })
                 }<br/>
 
@@ -26,7 +26,7 @@ class State extends Component {
                 <span>this.state.lista.filter.map = </span>
                 <span>{
                     this.state.lista.filter( e => e > 5).map( e => {
-                    return <span>{ e }</span>
+                    return <span key={Math.random()}>{ e }</span>
                     })
                 }</span>
             </div>
